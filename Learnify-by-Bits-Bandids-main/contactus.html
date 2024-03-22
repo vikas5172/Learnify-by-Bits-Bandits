@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <link rel="stylesheet" href="Untitled-2.css">  
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200;1,600&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body {
+            background-image: url('contactbg.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .contact {
+            position: relative;
+            min-height: 100vh;
+            padding: 40px 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-size: cover;
+        }
+        .contact .content {
+            max-width: 800px;
+            text-align: center;
+        }
+        .contact .content h2 {
+            font-size: 36px;
+            font-weight: 500;
+            color:#ff7200;
+        }
+        .contact .content p {    
+            font-weight: 300;
+            color: #fff;
+        }
+        .contact .content h3 {
+            font-size: 18px;
+            font-weight: 500;
+            color:#fff;
+        }
+        .container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+        .contactInfo {
+            width: 50%;
+            padding-left: 10%;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background: #fff;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .box {
+            position: relative;
+            padding: 20px 0;
+            display: flex;
+        }
+        .icon .bx {
+            width: 50px;
+            height: 50px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+            font-size: 22px;
+        }
+        .box .text {
+            display: flex;
+            margin-left: 20px;
+            font-size: 16px;
+            color: #fff;
+            flex-direction: column;
+            font-weight: 300;
+        }
+        .box .text h3 {
+            font-weight: 500;
+            color: #ff7200;
+        }
+        .contactForm {
+            width: 400px;
+            padding: 40px;
+            background: #fff;
+            margin-left: 20%;
+        }
+        .contactForm h2 {
+            font-size: 30px;
+            color: #333;
+            font-weight: 500;
+        }
+        .contactForm .inputBox {
+            position: relative;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .contactForm .inputBox input {
+            width: 100%;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+        .contactForm .inputBox textarea {
+            width: 100%;  
+            font-size: 16px;
+            margin: 10px 0;
+            border: none;
+            border-bottom: 2px solid #333;
+            outline: none;
+            resize: none;
+        }
+        .contactForm .inputBox span {
+            position: absolute;
+            left: 0;
+            padding: 5px 0;
+            font-size: 16px;
+            margin: 10px 0;
+            pointer-events: none;
+            transition: 0.5%;
+            color: #666;
+        }
+        .contactForm .inputBox input:focus ~ span,
+        .contactForm .inputBox input:valid ~ span,
+        .contactForm .inputBox textarea:focus ~ span,
+        .contactForm .inputBox textarea:valid ~ span {
+            color: #e91e63;
+            font-size: 12px;
+            transform: translateY(-20px);
+        }
+        .contactForm .inputBox input[type="submit"] {
+            width: 100px;
+            background: #ff7200;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="l1.png" alt="logo">
+           </a>
+           <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+           </ul>
+           <div class="header-icons">
+            <a href="login.html"><i class='bx bx-user' ></i></a>
+            <a href="#"><i class='bx bx-heart'></i></a>
+            <a href="#"><i class='bx bx-cart-alt' ></i></a>
+            <div class='bx bx-menu' id="menu-icon"></div>
+        </div>
+    </header>
+    <section class="contact" style="margin-top: 12%;">
+        <div class="content">
+            <h2><u>Contact Us<br>Leave a Message</u></h2>           
+            <br>          
+             <h3>If you have a question regarding to our services, feel free to contact-us using the form below.</h3>
+             <br>
+             <p>We are delighted that you are using my services. We are doing our best to serve your needs.<br>
+            For sponsorship , inquiry or assistance feel free to mail us at our respective email.</p>
+            
+        </div>
+        <div class="container">
+            <div class="ContactInfo">
+                <div class="box">
+                    <div class="icon">
+                        <i class='bx bxs-map' aria-hidden="true"></i>
+                    </div>
+                    <div class="text">
+                        <h3><u>Address</u></h3>
+                        <p>Jalandhar - Delhi Grand Trunk Road,<br>Phagwara,Punjab,<br>144001</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bxs-phone'></i></div>
+                    <div class="text">
+                        <h3><u>Phone</u></h3>
+                        <p>9508394019</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class='bx bx-envelope'></i></div>
+                    <div class="text">
+                        <h3><u>Email</u></h3>
+                        <p>For Sponshorship, Inquiry, assistance: paramjeetpatelmbhs@gmail.com<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type Your Message....</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">                       
+                    </div>
+                </form>
+            </div> 
+        </div>
+    </section>
+</body>
+</html>
