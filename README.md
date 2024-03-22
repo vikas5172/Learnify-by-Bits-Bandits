@@ -1,2 +1,3 @@
-# project-cse326
-this is my html 326 Project in which i made a online education website
+Learnify-by-Bits-Bandits
+It is a project made my Bits-Bandits.
+In this project we have developed a learning platform that is easy to use and have user friendly interface.
